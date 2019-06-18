@@ -39,12 +39,12 @@ h2 {color: blue}
   width: 31.33%;
   padding: 10px;
   margin: 1%;
-  height: 300px; /* Should be removed. Only for demonstration */
+  height: 500px; /* Should be removed. Only for demonstration */
 }
 
 /* Clear floats after the columns */
 .row:after {
-  content: "";
+  content: "";s
   display: table;
   clear: both;
 }
