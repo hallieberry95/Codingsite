@@ -1,5 +1,3 @@
-/*@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Josefin+Sans:400,600,700,700i|Open+Sans+Condensed:300,300i,700');*/
-@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One|Open+Sans+Condensed:300,300i,700|Quicksand');
 
 * {
   transition: all ease-in-out 250ms;
@@ -78,8 +76,12 @@ body {
 /* Slideshow container */
 .slideshow-container {
   position:relative;
-  height: 100%;
-  width: 100%;
+  width: 100vw;
+height: 55vh;
+
+  @media only screen and (max-width: 768px) {
+    height: auto;
+}
 }
 
 .slideshow-container h1 {
@@ -95,6 +97,7 @@ body {
 	max-width: 100%;
 	width: 100%;
   height: 98%;
+
 }
 
 .mySlides .img{
@@ -229,7 +232,7 @@ article h1{
   color: orange;
 }
 .page content {
-  max-width: 600px;
+  max-width: 500px;
   padding-bottom: 20px;
   margin: 0 auto;
 }
@@ -336,7 +339,7 @@ input[type=submit]:hover {
 .fa {
     padding: 10px;
     font-size: 20px;
-    width: 40px;
+    width: 55px;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
